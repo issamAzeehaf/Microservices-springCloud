@@ -1,2 +1,10 @@
-package ma.azehaf.orderservice.model;public class Customer {
+package ma.azehaf.orderservice.model;
+
+import lombok.Data;
+
+@Data
+public class Customer {
+    private Long id;
+    private String name;
+    private String email;
 }
